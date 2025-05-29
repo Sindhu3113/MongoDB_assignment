@@ -579,27 +579,6 @@ db.todo_table.updateMany(
 }
 db.todo_table.find()
 {
-  _id: ObjectId('6836e42631485535101b391b'),
-  task: 'Play',
-  status: false,
-  updateAt: [
-    2025-05-28T10:51:15.761Z
-  ],
-  createdAt: [
-    2025-05-28T10:51:24.829Z
-  ]
-}
-SyntaxError: Missing semicolon. (4:6)
-
-[0m [90m 2 |[39m {
- [90m 3 |[39m   _id[33m:[39m [33mObjectId[39m([32m'6836e42631485535101b391b'[39m)[33m,[39m
-[31m[1m>[22m[39m[90m 4 |[39m   task[33m:[39m [32m'Play'[39m[33m,[39m
- [90m   |[39m       [31m[1m^[22m[39m
- [90m 5 |[39m   status[33m:[39m [36mfalse[39m[33m,[39m
- [90m 6 |[39m   updateAt[33m:[39m [
- [90m 7 |[39m     [35m2025[39m[33m-[39m[35m05[39m[33m-[39m[35m28[39m[33mT10[39m[33m:[39m[35m51[39m[33m:[39m[35m15.761[39m[33mZ[39m[0m
-db.todo_table.find()
-{
   _id: ObjectId('6837f306bd56136471088441'),
   task: 'Play',
   status: false,
